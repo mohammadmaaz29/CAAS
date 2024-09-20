@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    padding-right: 0px;
+    
+    width: 100%;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left:1150px;
+    display: flex;
+    
+}
+main section{
+    margin-left: 50%;
+    margin-top: 12%;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+h1 {
+    font-size: 36px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+main section {
+    background-color: #f7f7f7;
+    padding: 10px;
+    padding-left: -10%;
+    margin-bottom: 20px;
+    margin-left: 252px;
+    display: block;
+    margin-top: S50px;
+    padding-right: 0px;
+    
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 0;
+    padding-left: 20px;
+}
+p{
+    font-size: 18px;
+}
+main img{
+    height: 25%;
+    width: 25%;
+    margin-right: 4%;
+    margin-left: 91px;
+    
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 23%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#pd p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+section {
+    background-color: #f7f7f7;
+    display: flex;
+    
+}
+section div{
+    background-color: #e9dada;
+    margin: 40px;
+    padding: 10px;
+    height: 218px;
+    width: 610px;
+}
+section div h2{
+    font-size: 25px;
+}
+section div p{
+    font-size: 20px;
+}
+
+
+h2 {
+    font-size: 35px;
+    margin-top: 0;
+}
+p{
+    font-size: 18px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+/* Add the following code to the existing CSS file */
+
+.feature-section {
+    
+
+    padding: -20px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Feature{
+    margin: auto;
+}
+.feature-section h2 {
+    font-size: 24px;
+ 
+}
+
+.feature-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#heading{
+    background-color: #333;
+    color: #fff;
+    height: 65px;
+    width: 100%;
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: space-around;
+}
+#fea1{
+    display: flex;
+    padding-left: -10%;
+    
+  
+}
+#fea2{
+    display: flex;
+}
+video{
+    margin-left: 369px;
+    margin-top: 0px;
+}
+#b1 {
+    background-color: #333;
+    font-size: 22px;
+    color: #fff;
+    padding: 14px 59px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 686px;
+    text-decoration:none;
+}
+  
+  #feedback-form {
+    max-width: 399px;
+    margin: 29px auto;
+    padding: 20px;
+    border: 15px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"], input[type="tel"] {
+    width: 87%;
+    height: 17px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    width: 73%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 169px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+  #foot {
+    background-color: #333;
+    height: 132px;
+    width: 100%;
+    color: #ccc;
+    justify-content: space-around;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+#a1
+{
+    justify-content: center;
+    padding-left: 31%;
+    color: red;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
