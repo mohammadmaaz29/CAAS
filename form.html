@@ -66,19 +66,28 @@ input[type="submit"]:hover {
 		<input type="text" id="name" name="name" required><br><br>
 		
 		<label for="phone">Phone Number:</label>
-		<input type="tel" id="phone" name="phone" required><br>
+		<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br>
 
         <label for="email">Email:</label>
 		<input type="email" id="email" name="email" required><br>
-		
+		<div>
+    <label for="City">City:</label>
+    <select id="City" name="City" required>
+      <option value="">-- Select your City --</option>
+      <option value="City1">Nadiad</option>
+      <option value="City2">Anand</option>
+      <option value="City3">Kheda</option>
+    </select>
+  </div><br>
+
 		<label for="address">Address:</label>
 		<textarea id="address" name="address" required></textarea><br>
 		
 		<label for="car_number">Car Number:</label>
-		<input type="text" id="car_number" name="car_number" required><br>
-		
-		
-		
+		<input type="text" id="car_number" name="car_number" required
+    pattern="^[A-Z]{2}\s\d{1,2}\s[A-Z]{1,2}\s\d{4}$" 
+    placeholder="e.g., DL 01 AB 1234"><br>
+
 		<input type="submit" value="Submit">
     </form>
 </body>
